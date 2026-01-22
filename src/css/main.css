@@ -64,3 +64,65 @@
         z-index: 2;
         right: 2%;
 }
+.mob{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+    .home-section {
+        background-image: url("/img/hero/desk.png");
+        height: 850px;
+    }
+
+    .home-wrapper {
+        margin-top: 30px;
+        width: 784px;
+        height: 590px;
+        padding: 48px 104px 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home-title{
+        font-size: 80px;
+    }
+    .home-subtitle{
+        margin-top: 16px;
+    }
+    .home-text{
+        width: 550px;
+        margin-bottom: 16px;
+    }
+    .mob{
+        display: block;
+    }
+    .desk{
+        display: none;
+    }
+        .home-two,
+        .home-three,
+        .home-four {
+            display: block;
+            position: absolute;
+            z-index: 3;
+        }
+    
+        .home-one {
+            position: absolute;
+width: 446px;
+    height: 620px;
+            bottom: -27%;
+            z-index: 2;
+            right: -30%;
+        }
+        .home-four{
+            top: 20px;
+            left: 3%;
+          }
+          .home-three{
+            bottom: -10%;
+            left: -10%;
+          }
+          .home-two{
+            right: -17%;
+            bottom: -29%;
+          }
+}
