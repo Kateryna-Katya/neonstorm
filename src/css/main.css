@@ -126,3 +126,40 @@ width: 446px;
             bottom: -29%;
           }
 }
+/* Tale */
+.tale-article{
+    background-image: url("/img/tale/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 599px;
+}
+.tale-container{
+    padding-top: 32px;
+}
+.tale-wrapper{
+    background: rgba(11, 21, 16, 0.7);
+    border-radius: 24px;
+        padding: 20px;
+        width: 343px;
+        height: 229px;
+}
+@media only screen and (min-width: 1440px) {
+   .tale-article{
+    background-image: url("/img/tale/desk.png");
+    height: 450px;
+   }
+   .tale-wrapper{
+    padding: 48px;
+        width: 531px;
+        height: 312px;
+        font-size: 18px;
+        text-align: left;
+        margin-right: 0;
+        margin-left: auto;
+   }
+   .tale-container{
+    padding-top: 58px;
+    padding-right: 189px;
+   }
+}
