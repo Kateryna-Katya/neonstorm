@@ -197,3 +197,28 @@ border-radius: 24px;
     height: 300px;
  }
 }
+/* DISCLAIMER */
+.disclaimer-container{
+    padding: 48px 38px;
+}
+.disclaimer-text{
+    margin-top: 24px;
+font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    color: #ecf3ec;
+}
+@media only screen and (min-width: 1440px) {
+  .disclaimer-container{
+    padding: 56px 210px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .disclaimer-text{
+    margin-top: 0;
+    text-align: left;
+  }
+}
