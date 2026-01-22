@@ -2,55 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/neonstorm/favicon.svg" />
+    <link rel="icon" type="image/png" href="/neonstorm/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Eagle+Lake&family=Hind:wght@300;400;500;600;700&family=Lexend:wght@100..900&display=swap"
+        rel="stylesheet">
     <title>Vanilla App Template</title>
     <script type="module" crossorigin src="/neonstorm/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/neonstorm/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/neonstorm/assets/styles-B4kTmYmE.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container">
+        <div class="home-wrapper">
+        <h1 class="home-title">Ellen’s <span class="home-span">Fortune</span></h1>
+        <h2 class="home-subtitle">A forest where luck smiles back at you.</h2>
+        <p class="home-text">So you're walking past these rolling green hills, right? And then boom - there's this forest that just hits different,
+        you know? Like it's got some of that old Irish magic still hanging around.<br/> Here lives Ellen — an Elven Princess whose
+        presence gently guides fortune itself. Come on in and see what Ellen's world is all about - it's got this warm, colorful
+        vibe that's honestly pretty incredible once you figure it out.</p>
+        <a class="home-link btn" href="#demo">
+            <p>Step Into the Magic</p>
+        </a>
+        <img class="home-one" src="/neonstorm/assets/girl-uMR1al_q.png" alt="girl" loading="lazy">
+        <img class="home-two" src="/neonstorm/assets/glechyk-CZlnIy2L.png" alt="glechyk" loading="lazy">
+        <img class="home-three" src="/neonstorm/assets/klever-Sme72V3i.png" alt="klever" loading="lazy">
+        <img class="home-four" src="/neonstorm/assets/pidkova-B7LJM5w8.png" alt="pidkova" loading="lazy">
+    </div>
+</div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
