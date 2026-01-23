@@ -1,0 +1,113 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+
+.background {
+    background: #dfdcd6;
+font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #0b1510;
+    text-align: left;
+}
+.policy-container{
+    padding-bottom: 0;
+}
+.policy-title-wrapper {
+    padding-top: 32px;
+    background-size: 41px 3px, 41px 3px;
+    height: 133px;
+    background-position: top 70% left, top 70% right;
+}
+
+.back-link {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.privacy-title {
+font-family: "Eagle Lake", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #f9dc23;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #0d0e1b;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+
+    .policy-title-wrapper {
+        padding-top: 56px;
+        background-size: 470px 6px, 470px 6px;
+        height: 165px;
+        background-position: top 74% left, top 74% right;
+    }
+.policy-container{
+    padding-left: 189px;
+    padding-right: 189px;
+    padding-bottom: 20px;
+}
+    .back-link {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .privacy-title {
+        font-size: 32px;
+
+    }
+
+}
