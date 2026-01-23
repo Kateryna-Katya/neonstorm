@@ -493,3 +493,13 @@ background-image: url("/img/similar/two.png");
 background-image: url("/img/similar/three.png");
 background-size: cover;
 }
+@media only screen and (min-width: 1440px) {
+  .similar-list{
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+  }
+  .similar-text{
+    width: 100%;
+  }
+}
