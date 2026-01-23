@@ -1,0 +1,84 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 48px 46px;
+    background: #0b1510;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+width: 269px;
+    height: 39px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-accept {
+border-radius: 12px;
+    padding: 10px;
+    width: 123px;
+    height: 39px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background: #ecf3ec;
+    box-sizing: border-box;
+    border: none;
+font-family: "Archivo Narrow", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #0b1510;
+}
+
+.btn-decline {
+    border: none;
+border-bottom: 2px solid #ecf3ec;
+    padding: 10px;
+    width: 126px;
+    height: 39px;
+font-family: "Archivo Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #ecf3ec;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 67px 189px;
+        width: 1439px;
+        height: auto;
+    }
+
+    .popup-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .cookie-buttons {
+        width: 353px;
+        height: 36px;
+        gap: 80px;
+    }
+
+    .desk {
+        display: block;
+    }
+}
