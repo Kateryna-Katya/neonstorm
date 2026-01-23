@@ -59,7 +59,7 @@ font-family: "Archivo Narrow", sans-serif;
 
 @media screen and (min-width: 1439px) {
     .cookie-popup {
-        padding: 67px 189px;
+        padding: 56px 189px;
         width: 1439px;
         height: auto;
     }
